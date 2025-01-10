@@ -37,3 +37,32 @@ This repository is divided into multiple branches, each representing different s
 Clone this repository to your local machine using:
 ```bash
 git clone https://github.com/your-username/air_quality_index_prediction.git
+```
+## Install Dependencies
+
+### Create a Virtual Environment
+
+### Activate the Virtual Environment
+
+### Install Required Libraries
+
+- pandas
+- scikit-learn
+- flask
+- joblib
+- matplotlib (if using for visualizations)
+- numpy (if using for numerical operations)
+
+## Running the Model
+
+Run the model.py code which will create a joblib file 
+
+## Running the Flask Application
+
+- To use the Web Application run the app.py file
+- Visit http://127.0.0.1:5000/ in your browser to input pollutant values and get the AQI prediction.
+
+## Notes
+
+- The joblib file is not included in the repository to keep the repository size manageable. You can regenerate it by running the training script.
+- You can refer to the respective branches for different stages of the project.
